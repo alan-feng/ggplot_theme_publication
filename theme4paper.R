@@ -1,7 +1,7 @@
 theme_boxborder <- function(base_size = 9, 
                             base_family = "",
-                            base_line_size = base_size/43, 
-                            base_rect_size = base_size/43) {
+                            base_line_size = 0.24,  # line width = 0.18 mm
+                            base_rect_size = 0.24) {
   theme_bw(base_size = base_size,
            base_family = base_family,
            base_line_size = base_line_size,
@@ -21,9 +21,9 @@ theme_boxborder <- function(base_size = 9,
 
 
 theme_lborder <- function(base_size = 9, 
-                      base_family = "",
-                      base_line_size = base_size/43, 
-                      base_rect_size = base_size/43) {
+                          base_family = "",
+                          base_line_size = 0.24,  # line width = 0.18 mm
+                          base_rect_size = 0.24) {
   theme_classic(base_size = base_size,
                 base_family = base_family,
                 base_line_size = base_line_size,
