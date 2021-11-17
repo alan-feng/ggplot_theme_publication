@@ -1,5 +1,5 @@
 theme_boxborder <- function(base_size = 9, 
-                            base_family = "Arial",
+                            base_family = "",
                             base_line_size = 0.18, 
                             base_rect_size = 0.18) {
   theme_bw(base_size = base_size,
@@ -15,7 +15,7 @@ theme_boxborder <- function(base_size = 9,
 
 
 theme_lborder <- function(base_size = 9, 
-                      base_family = "Arial",
+                      base_family = "",
                       base_line_size = 0.18, 
                       base_rect_size = 0.18) {
   theme_classic(base_size = base_size,
