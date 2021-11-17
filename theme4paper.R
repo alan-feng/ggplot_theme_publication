@@ -16,10 +16,15 @@ theme_boxborder <- function(base_size = 9,
       legend.key.size = unit(0.5, "lines"),
       legend.text = element_text(size = rel(0.6)),
       legend.title = element_text(hjust = 0.2, vjust = 0.8, size = rel(0.6)),
-      legend.margin = margin(0.1, 0.1, 0.1, 0.1, unit = "lines")
+      legend.margin = margin(0.1, 0.1, 0.1, 0.1, unit = "lines"),
+      strip.background = element_rect(fill = NA, colour = NA),
+      strip.text = element_text(colour = "black", size = rel(1),
+                                margin = margin(0.1, 0.1, 0.1, 0.1, unit = "lines"))
     )
 }
 
+    
+    
 
 theme_lborder <- function(base_size = 9, 
                           base_family = "",
@@ -38,6 +43,9 @@ theme_lborder <- function(base_size = 9,
       legend.key.size = unit(0.5, "lines"),
       legend.text = element_text(size = rel(0.6)),
       legend.title = element_text(hjust = 0.2, vjust = 0.8, size = rel(0.6)),
-      legend.margin = margin(0.1, 0.1, 0.1, 0.1, unit = "lines")
+      legend.margin = margin(0.1, 0.1, 0.1, 0.1, unit = "lines"),
+      strip.background = element_rect(fill = NA, colour = NA),
+      strip.text = element_text(colour = "black", size = rel(1),
+                                margin = margin(0.1, 0.1, 0.1, 0.1, unit = "lines"))
     )
 }
