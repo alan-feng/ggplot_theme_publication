@@ -13,7 +13,7 @@ theme_boxborder <- function(base_size = 9,
       legend.background = element_blank(),
       axis.text = element_text(size = rel(0.8), colour = "black"),
       axis.ticks = element_line(colour = "black", size = rel(1)),
-      legend.key.size = unit(0.6, "lines"),
+      legend.key.size = unit(0.5, "lines"),
       legend.text = element_text(size = rel(0.6)),
       legend.title = element_text(hjust = 0.2, vjust = 0.8, size = rel(0.6))
     )
@@ -34,7 +34,7 @@ theme_lborder <- function(base_size = 9,
       axis.text = element_text(size = rel(0.8), colour = "black"),
       axis.ticks = element_line(colour = "black", size = rel(1)),
       axis.line = element_line(colour = "black", size = rel(1)),
-      legend.key.size = unit(0.6, "lines"),
+      legend.key.size = unit(0.5, "lines"),
       legend.text = element_text(size = rel(0.6)),
       legend.title = element_text(hjust = 0.2, vjust = 0.8, size = rel(0.6))
     )
