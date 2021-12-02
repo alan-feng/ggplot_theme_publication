@@ -1,3 +1,8 @@
+# Set default line width to 0.18mm for the geom objects
+update_geom_defaults("line", list(size = 0.18/0.75))
+update_geom_defaults("point", list(stroke = 0.18/0.75))
+
+# theme with a box border for the plot region
 theme_boxborder <- function(base_size = 9, 
                             base_family = "",
                             base_line_size = 0.18/0.75,  # line width = 0.18 mm
@@ -25,7 +30,7 @@ theme_boxborder <- function(base_size = 9,
 
     
     
-
+# theme with a L border for the plot region
 theme_lborder <- function(base_size = 9, 
                           base_family = "",
                           base_line_size = 0.18/0.75,  # line width = 0.18 mm
