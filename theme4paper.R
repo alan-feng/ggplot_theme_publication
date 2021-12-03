@@ -1,7 +1,7 @@
 # Set default line width to 0.18mm for the geom objects
 update_geom_defaults("line", list(size = 0.18/0.75))
 update_geom_defaults("point", list(stroke = 0.18/0.75))
-update_geom_defaults("histogram", list(size = 0.18/0.75))
+update_geom_defaults("geom_histogram", list(size = 0.18/0.75))
 update_geom_defaults("pointrange", list(size = 0.18/0.75))
 update_geom_defaults("abline", list(size = 0.18/0.75))
 update_geom_defaults("hline", list(size = 0.18/0.75))
