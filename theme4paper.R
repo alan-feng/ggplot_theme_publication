@@ -1,4 +1,4 @@
-# Set default line width to 0.18mm for the geom objects
+# Set default line width to 0.18mm for the geom objects and text size to 9 pt
 update_geom_defaults("line", list(size = 0.18/0.75))
 update_geom_defaults("point", list(stroke = 0.18/0.75))
 update_geom_defaults("bar", list(size = 0.18/0.75))
@@ -7,6 +7,7 @@ update_geom_defaults("sf", list(size = 0.18/0.75))
 update_geom_defaults("abline", list(size = 0.18/0.75))
 update_geom_defaults("hline", list(size = 0.18/0.75))
 update_geom_defaults("vline", list(size = 0.18/0.75))
+update_geom_defaults("text", list(size = 9))
 
 
 # theme with a box border for the plot region
