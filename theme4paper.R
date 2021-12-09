@@ -7,7 +7,7 @@ update_geom_defaults("sf", list(size = 0.18/0.75))
 update_geom_defaults("abline", list(size = 0.18/0.75))
 update_geom_defaults("hline", list(size = 0.18/0.75))
 update_geom_defaults("vline", list(size = 0.18/0.75))
-update_geom_defaults("text", list(size = 9))
+update_geom_defaults("text", list(size = 9/.pt))
 
 
 # theme with a box border for the plot region
