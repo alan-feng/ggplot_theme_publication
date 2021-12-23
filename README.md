@@ -20,7 +20,7 @@ ggplot() +
   ... +
   theme_boxboarder(
   # change default base setting here if needed
-  base_font_size = ,
+  base_size = ,
   base_family = "",
   base_rect_size = ,
   base_line_size =
