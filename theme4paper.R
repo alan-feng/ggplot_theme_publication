@@ -20,7 +20,7 @@ theme_boxborder <- function(base_size = 9,
            base_line_size = base_line_size,
            base_rect_size = base_rect_size) %+replace%
     theme(
-      axis.text = element_text(size = rel(0.9), colour = "black"),
+      axis.text = element_text(size = rel(0.8), colour = "black"),
       axis.ticks = element_line(colour = "black", size = rel(1)),
       legend.position = c(1.00, 1.00),
       legend.justification = c("right", "top"),
@@ -52,7 +52,7 @@ theme_lborder <- function(base_size = 9,
                 base_line_size = base_line_size,
                 base_rect_size = base_rect_size) %+replace%
     theme(
-      axis.text = element_text(size = rel(0.9), colour = "black"),
+      axis.text = element_text(size = rel(0.8), colour = "black"),
       axis.ticks = element_line(colour = "black", size = rel(1)),
       axis.line = element_line(colour = "black", size = rel(1)),
       legend.position = c(1.00, 1.00),
