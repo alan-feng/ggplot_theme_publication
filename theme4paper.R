@@ -7,11 +7,11 @@ update_geom_defaults("sf", list(size = 0.18/0.75))
 update_geom_defaults("abline", list(size = 0.18/0.75))
 update_geom_defaults("hline", list(size = 0.18/0.75))
 update_geom_defaults("vline", list(size = 0.18/0.75))
-update_geom_defaults("text", list(size = 9/.pt))
+update_geom_defaults("text", list(size = 8/.pt))
 
 
 # theme with a box border for the plot region
-theme_boxborder <- function(base_size = 9, 
+theme_boxborder <- function(base_size = 8, 
                             base_family = "",
                             base_line_size = 0.18/0.75,  # line width = 0.18 mm
                             base_rect_size = 0.18/0.75) {
@@ -36,14 +36,14 @@ theme_boxborder <- function(base_size = 9,
       strip.text = element_text(colour = "black", size = rel(1),
                                 margin = margin(0.1, 0.1, 0.1, 0.1, unit = "lines")),
       plot.title = element_text(hjust = 0.5, margin = margin(b = base_size/4)),
-      plot.margin = margin(base_size/2, base_size/2 + 2, base_size/2, base_size/2)
+      plot.margin = margin(base_size/2, base_size/2, base_size/2, base_size/2)
     )
 }
 
     
     
 # theme with a L border for the plot region
-theme_lborder <- function(base_size = 9, 
+theme_lborder <- function(base_size = 8, 
                           base_family = "",
                           base_line_size = 0.18/0.75,  # line width = 0.18 mm
                           base_rect_size = 0.18/0.75) {
@@ -67,6 +67,6 @@ theme_lborder <- function(base_size = 9,
       strip.text = element_text(colour = "black", size = rel(1),
                                 margin = margin(0.1, 0.1, 0.1, 0.1, unit = "lines")),
       plot.title = element_text(hjust = 0.5, margin = margin(b = base_size/4)),
-      plot.margin = margin(base_size/2, base_size/2 + 2, base_size/2, base_size/2)
+      plot.margin = margin(base_size/2, base_size/2, base_size/2, base_size/2)
     )
 }
