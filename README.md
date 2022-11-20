@@ -1,7 +1,7 @@
 # ggplot-theme-paper
 Custom clean ggplot themes for research publications by setting default base font size at 9pt, base line width at 0.18mm and base font family at "Helvatica".
 
-## Installation
+## Call in R script
 ```r
 source("https://github.com/alan-feng/ggplot-theme-paper/blob/main/theme4paper.R?raw=TRUE")
 ```
