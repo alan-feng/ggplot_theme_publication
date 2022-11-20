@@ -2,7 +2,7 @@
 update_geom_defaults("line", list(size = 0.18/0.75))
 update_geom_defaults("point", list(stroke = 0.18/0.75))
 update_geom_defaults("bar", list(size = 0.18/0.75))
-update_geom_defaults("pointrange", list(size = 0.18/0.75))
+update_geom_defaults("pointrange", list(size = 0.18/0.75, stroke = 0.18/0.75))
 update_geom_defaults("linerange", list(size = 0.18/0.75))
 update_geom_defaults("sf", list(size = 0.18/0.75))
 update_geom_defaults("abline", list(size = 0.18/0.75))
