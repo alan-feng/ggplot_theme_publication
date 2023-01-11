@@ -39,7 +39,7 @@ theme_boxborder <- function(base_size = 9,
       strip.text = element_text(colour = "black", size = rel(1),
                                 margin = margin(0.1, 0.1, 0.1, 0.1, unit = "lines")),
       plot.title = element_text(hjust = 0.5, margin = margin(b = base_size/4), face = "bold"),
-      plot.margin = margin(t = base_size/2*3, r = base_size, b = base_size/4, l = base_size/4, unit = "pt")
+      plot.margin = margin(t = base_size/3*2, r = base_size, b = base_size/4, l = base_size/4, unit = "pt")
     )
 }
 
@@ -71,6 +71,6 @@ theme_lborder <- function(base_size = 9,
       strip.text = element_text(colour = "black", size = rel(1),
                                 margin = margin(0.1, 0.1, 0.1, 0.1, unit = "lines")),
       plot.title = element_text(hjust = 0.5, margin = margin(b = base_size/4), face = "bold"),
-      plot.margin = margin(t = base_size/2*3, r = base_size, b = base_size/4, l = base_size/4, unit = "pt")
+      plot.margin = margin(t = base_size/3*2, r = base_size, b = base_size/4, l = base_size/4, unit = "pt")
     )
 }
