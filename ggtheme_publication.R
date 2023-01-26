@@ -22,7 +22,6 @@ theme_boxborder <- function(base_size = 9,
            base_line_size = base_line_size,
            base_rect_size = base_rect_size) %+replace%
     theme(
-      panel.background = element_blank(),
       axis.text = element_text(size = rel(0.8), colour = "black"),
       axis.ticks = element_line(colour = "black", size = rel(1)),
       legend.position = c(1.00, 1.00),
@@ -38,6 +37,7 @@ theme_boxborder <- function(base_size = 9,
       strip.background = element_rect(fill = NA, colour = NA),
       strip.text = element_text(colour = "black", size = rel(1),
                                 margin = margin(0.1, 0.1, 0.1, 0.1, unit = "lines")),
+      plot.background = element_blank(),
       plot.title = element_text(hjust = 0.5, margin = margin(b = base_size/4), face = "bold"),
       plot.margin = margin(t = base_size/3*2, r = base_size, b = base_size/4, l = base_size/4, unit = "pt")
     )
@@ -55,7 +55,6 @@ theme_lborder <- function(base_size = 9,
                 base_line_size = base_line_size,
                 base_rect_size = base_rect_size) %+replace%
     theme(
-      panel.background = element_blank(),
       axis.text = element_text(size = rel(0.8), colour = "black"),
       axis.ticks = element_line(colour = "black", size = rel(1)),
       axis.line = element_line(colour = "black", size = rel(1)),
@@ -70,6 +69,7 @@ theme_lborder <- function(base_size = 9,
       strip.background = element_rect(fill = NA, colour = NA),
       strip.text = element_text(colour = "black", size = rel(1),
                                 margin = margin(0.1, 0.1, 0.1, 0.1, unit = "lines")),
+      plot.background = element_blank(),
       plot.title = element_text(hjust = 0.5, margin = margin(b = base_size/4), face = "bold"),
       plot.margin = margin(t = base_size/3*2, r = base_size, b = base_size/4, l = base_size/4, unit = "pt")
     )
