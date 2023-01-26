@@ -1,14 +1,14 @@
 # Set default line width to 0.18mm for the geom objects and text size to 9 pt
-update_geom_defaults("line", list(size = 0.18/0.75))
+update_geom_defaults("line", list(linewidth = 0.18/0.75))
 update_geom_defaults("point", list(stroke = 0.18/0.75))
-update_geom_defaults("bar", list(size = 0.18/0.75))
-update_geom_defaults("pointrange", list(size = 0.18/0.75, stroke = 0.18/0.75))
-update_geom_defaults("linerange", list(size = 0.18/0.75))
-update_geom_defaults("sf", list(size = 0.18/0.75))
-update_geom_defaults("segment", list(size = 0.18/0.75))
-update_geom_defaults("abline", list(size = 0.18/0.75))
-update_geom_defaults("hline", list(size = 0.18/0.75))
-update_geom_defaults("vline", list(size = 0.18/0.75))
+update_geom_defaults("bar", list(linewidth = 0.18/0.75))
+update_geom_defaults("pointrange", list(linewidth = 0.18/0.75, stroke = 0.18/0.75))
+update_geom_defaults("linerange", list(linewidth = 0.18/0.75))
+update_geom_defaults("sf", list(linewidth = 0.18/0.75))
+update_geom_defaults("segment", list(linewidth = 0.18/0.75))
+update_geom_defaults("abline", list(linewidth = 0.18/0.75))
+update_geom_defaults("hline", list(linewidth = 0.18/0.75))
+update_geom_defaults("vline", list(linewidth = 0.18/0.75))
 update_geom_defaults("text", list(size = 9/.pt))
 
 
