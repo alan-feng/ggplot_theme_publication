@@ -3,11 +3,7 @@ Custom clean ggplot themes for research publications by setting default base fon
 
 ## Call in R script
 ```r
-source("https://github.com/alan-feng/ggplot-theme-paper/blob/main/ggtheme_paper.R?raw=TRUE")
-```
-or 
-```r
-source("https://raw.githubusercontent.com/alan-feng/ggplot-theme-paper/main/ggtheme_paper.R")
+source("https://raw.githubusercontent.com/alan-feng/ggplot_theme_publication/main/ggtheme_publication.R")
 ```
 
 ## Theme functions
