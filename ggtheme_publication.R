@@ -1,3 +1,5 @@
+library(ggplot2)
+
 # Set default line width to 0.18mm for the geom objects and text size to 9 pt
 update_geom_defaults("line", list(linewidth = 0.18/0.75))
 update_geom_defaults("path", list(linewidth = 0.18/0.75))
