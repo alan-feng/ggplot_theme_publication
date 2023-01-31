@@ -1,25 +1,33 @@
 library(ggplot2)
 
+# Define variables for standard linewidths: 0.18 mm, 0.25 mm, 0.35 mm, 0.5 mm, 0.70 mm, 1 mm
+lw18 <- 0.18/0.75
+lw25 <- 0.25/0.75
+lw35 <- 0.35/0.75
+lw50 <- 0.50/0.75
+lw70 <- 0.70/0.75
+lw100 <- 1.00/0.75
+
 # Set default line width to 0.18mm for the geom objects and text size to 9 pt
-update_geom_defaults("line", list(linewidth = 0.18/0.75))
-update_geom_defaults("path", list(linewidth = 0.18/0.75))
-update_geom_defaults("point", list(stroke = 0.18/0.75))
-update_geom_defaults("bar", list(linewidth = 0.18/0.75))
-update_geom_defaults("pointrange", list(linewidth = 0.18/0.75, stroke = 0.18/0.75, size = 0.18/0.75))
-update_geom_defaults("linerange", list(linewidth = 0.18/0.75))
-update_geom_defaults("sf", list(linewidth = 0.18/0.75))
-update_geom_defaults("segment", list(linewidth = 0.18/0.75))
-update_geom_defaults("abline", list(linewidth = 0.18/0.75))
-update_geom_defaults("hline", list(linewidth = 0.18/0.75))
-update_geom_defaults("vline", list(linewidth = 0.18/0.75))
+update_geom_defaults("line", list(linewidth = lw18))
+update_geom_defaults("path", list(linewidth = lw18))
+update_geom_defaults("point", list(stroke = lw18))
+update_geom_defaults("bar", list(linewidth = lw18))
+update_geom_defaults("pointrange", list(linewidth = lw18, stroke = lw18, size = lw18))
+update_geom_defaults("linerange", list(linewidth = lw18))
+update_geom_defaults("sf", list(linewidth = lw18))
+update_geom_defaults("segment", list(linewidth = lw18))
+update_geom_defaults("abline", list(linewidth = lw18))
+update_geom_defaults("hline", list(linewidth = lw18))
+update_geom_defaults("vline", list(linewidth = lw18))
 update_geom_defaults("text", list(size = 9/.pt))
 
 
 # theme with a box border for the plot region
 theme_boxborder <- function(base_size = 9, 
                             base_family = "",
-                            base_line_size = 0.18/0.75,  # line width = 0.18 mm
-                            base_rect_size = 0.18/0.75) {
+                            base_line_size = lw18, 
+                            base_rect_size = lw18) {
   theme_bw(base_size = base_size,
            base_family = base_family,
            base_line_size = base_line_size,
@@ -52,8 +60,8 @@ theme_boxborder <- function(base_size = 9,
 # theme with a L border for the plot region
 theme_lborder <- function(base_size = 9, 
                           base_family = "",
-                          base_line_size = 0.18/0.75,  # line width = 0.18 mm
-                          base_rect_size = 0.18/0.75) {
+                          base_line_size = lw18, 
+                          base_rect_size = lw18) {
   theme_classic(base_size = base_size,
                 base_family = base_family,
                 base_line_size = base_line_size,
