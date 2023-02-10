@@ -1,3 +1,6 @@
+###############################################################
+## Publication-ready themes for ggplot2
+###############################################################
 library(ggplot2)
 
 # Define variables for standard linewidths: 0.18 mm, 0.25 mm, 0.35 mm, 0.5 mm, 0.70 mm, 1 mm
