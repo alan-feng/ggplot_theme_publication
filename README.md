@@ -22,7 +22,7 @@ ggplot() +
   base_line_size =
   ) +
   theme(
-  # add extra custom ggplot theme settings here
+  # add extra plot-specific theme settings here
   
   )
 ```
