@@ -14,7 +14,7 @@ lw100 <- 1.00/0.75
 # Set default line width to 0.18mm for the geom objects and text size to 9 pt
 update_geom_defaults("line", list(linewidth = lw18))
 update_geom_defaults("path", list(linewidth = lw18))
-update_geom_defaults("point", list(stroke = lw18))
+update_geom_defaults("point", list(stroke = lw18, size = lw50))
 update_geom_defaults("bar", list(linewidth = lw18))
 update_geom_defaults("pointrange", list(linewidth = lw18, stroke = lw18, size = lw18))
 update_geom_defaults("linerange", list(linewidth = lw18))
