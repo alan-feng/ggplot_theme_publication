@@ -90,19 +90,3 @@ theme_lborder <- function(base_size = 9,
       plot.margin = margin(t = base_size/3*2, r = base_size, b = base_size/4, l = base_size/4, unit = "pt")
     )
 }
-
-
-# theme with a L boarder with legend on right out of box
-theme_lboarder_right <- function(base_size = 9, 
-                          base_family = "",
-                          base_line_size = lw18, 
-                          base_rect_size = lw18) {
-  theme_lboarder(base_size = base_size,
-                 base_family = base_family,
-                 base_line_size = base_line_size,
-                 base_rect_size = base_rect_size) %+replace%
-    theme(
-      legend.position = "right",
-      legend.justification = "left"
-    )
-}
