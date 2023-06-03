@@ -43,7 +43,7 @@ theme_boxborder <- function(base_size = 9,
       legend.background = element_blank(),
       legend.key.width = unit(0.8, "lines"),
       legend.key.height = unit(0.5, "lines"),
-      legend.text = element_text(size = rel(0.9)), # legend text size
+      # legend.text = element_text(size = rel(0.9)), # legend text size
       legend.title = element_text(size = rel(0.9)),
       legend.margin = margin(0.1, 0.1, 0.1, 0.1, unit = "lines"),
       panel.grid = element_blank(),
@@ -78,7 +78,7 @@ theme_lborder <- function(base_size = 9,
       legend.background = element_blank(),
       legend.key.width = unit(0.8, "lines"),
       legend.key.height = unit(0.5, "lines"),
-      legend.text = element_text(size = rel(0.9)), # legend text size
+      #legend.text = element_text(size = rel(0.9)), # legend text size
       legend.title = element_text(size = rel(0.9)),
       legend.margin = margin(0.1, 0.1, 0.1, 0.1, unit = "lines"),
       panel.background = element_blank(),
