@@ -1,5 +1,6 @@
 ###############################################################
 ## Publication-ready themes for ggplot2
+## Legend control refers to www.tidyverse.org/blog/2024/02/ggplot2-3-5-0-legends/
 ###############################################################
 library(ggplot2)
 
